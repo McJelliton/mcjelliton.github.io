@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<style>
+		#yin-yang {
+			width: 800px;
+			height: 400px;
+			background: #eee;
+			border-color: black;
+			border-style: solid;
+			border-width: 2px 2px 400px 2px;
+			border-radius: 100%;
+			position: relative;
+			margin:auto;
+			-webkit-animation: rotate 4s 2s infinite;
+		}
+	
+		#yin-yang:before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 0;
+			background: #eee;
+			border: 150px solid black;
+			border-radius: 100%;
+			width: 100px;
+			height: 100px;
+			-webkit-animation: rotate 4s 2s infinite;
+		}
+		
+		#yin-yang:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background: black;
+			border: 150px solid #eee;
+			border-radius:100%;
+			width: 100px;
+			height: 100px;
+			-webkit-animation: rotate 4s 2s infinite;
+		}
+		
+		@-webkit-keyframes rotate{
+			0% {
+				-webkit-transform: rotate(0deg) skew(0deg,0deg);
+			}
+			50% {
+				-webkit-transform: rotate(720deg) skew(50deg,50deg);*/
+			}
+			100% {
+				-webkit-transform: rotate(0deg) skew(180deg,180deg);
+			}
+
+		}
+
+</style>
+</head>
+
+<body>
+ <div id="yin-yang"></div>
+
+
+</body>
+</html>
