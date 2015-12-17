@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Untitled Document</title>
+	<style>
+		@-webkit-keyframes tutsFade {
+			0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+		@-moz-keyframes tutsFade {  0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}}
+		@-ms-keyframes tutsFade { 0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			} }
+		@-o-keyframes tutsFade { 0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			} }
+		@keyframes tutsFade {  0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+			}
+		@-webkit-keyframes tutsRotate {from {
+			  transform: none;
+		  }
+		  to {
+			-webkit-transform: rotate(180deg);
+		  }
+		}
+		@-moz-keyframes tutsRotate {from {
+			  transform: none;
+		  }
+		  to {
+			transform: rotate(180deg);
+		  }
+		}
+		@-ms-keyframes tutsRotate {from {
+			  transform: none;
+		  }
+		  to {
+			transform: rotate(180deg);
+		  }
+		}
+		@-o-keyframes tutsRotate {from {
+			  transform: none;
+		  }
+		  to {
+			transform: rotate(180deg);
+		  }
+		}
+		@keyframes tutsRotate {
+		  from {
+			  transform: none;
+		  }
+		  to {
+			transform:rotate(180deg);
+		  }
+		}
+		.first {
+			-webkit-animation: tutsFade 4s 1s infinite linear alternate,
+								tutsRotate 4s 1s infinite linear alternate;
+			-moz-animation: tutsFade 4s 1s infinite linear alternate,
+						    tutsRotate 4s 1s infinite linear alternate;
+			-ms-animation: tutsFade 4s 1s infinite linear alternate.
+						   tutsRotate 4s 1s infinite linear alternate;
+			-o-animation: tutsFade 4s 1s infinite linear alternate,
+						  tutsRotate 4s 1s infinite linear alternate;
+			animation: tutsFade 4s 1s infinite linear alternate,
+				   	   tutsRotate 4s 1s infinite linear alternate;
+		} 
+		
+		.second {
+			-webkit-animation: tutsFade 3s 1s infinite linear alternate,
+								tutsRotate 3s 1s infinite linear alternate;
+			-moz-animation: tutsFade 3s 1s infinite linear alternate,
+						    tutsRotate 3s 1s infinite linear alternate;
+			-ms-animation: tutsFade 3s 1s infinite linear alternate.
+						   tutsRotate 3s 1s infinite linear alternate;
+			-o-animation: tutsFade 3s 1s infinite linear alternate,
+						  tutsRotate 3s 1s infinite linear alternate;
+			animation: tutsFade 3s 1s infinite linear alternate,
+				   	   tutsRotate 3s 1s infinite linear alternate;
+		}
+		.third {
+			-webkit-animation: tutsFade 2s 1s infinite linear alternate,
+								tutsRotate 2s 1s infinite linear alternate;
+			-moz-animation: tutsFade 2s 1s infinite linear alternate,
+						    tutsRotate 2s 1s infinite linear alternate;
+			-ms-animation: tutsFade 2s 1s infinite linear alternate.
+						   tutsRotate 2s 1s infinite linear alternate;
+			-o-animation: tutsFade 2s 1s infinite linear alternate,
+						  tutsRotate 2s 1s infinite linear alternate;
+			animation: tutsFade 2s 1s infinite linear alternate,
+				   	   tutsRotate 2s 1s infinite linear alternate;
+		}
+		div  {
+			top:0px;
+			left:0px;
+			bottom:0px;
+			right:0px;
+			height: 100%;
+			width: 100%;
+			background-color: black;
+		}
+		
+		a {
+			position: absolute;
+		}
+		
+		.vertical {
+			left:50%;
+			width:20px;
+			height:100%;
+			padding-left:20px;
+			opacity:0;
+			-webkit-transition:opacity 0.5s	ease;
+			z-index:1;
+		}
+		
+		.vertical:hover{
+			opacity:.8;
+			background-color:red;
+		}
+		
+		.horizontal {
+			top:50%;
+			height:20px;
+			padding-top:20px;
+			width:100%;
+			opacity:0;
+			-webkit-transition:opacity 0.5s	ease;
+			z-index:1;
+				
+		}
+		.horizontal:hover {
+			opacity:0.8;
+			background-color:red;	
+		}
+	
+	</style>
+</head>
+
+<body>
+	<a class="vertical" href="square-to-circle.html"></a>
+    <a class="horizontal" href="blue_to_red.html"></a>
+	<div class="first"><p>o</p></div>
+    <div class="second"><p>o</p></div>
+    <div class="third"><p>o</p></div>
+    <div class="first"><p>o</p></div>
+    <div class="second"><p>o</p></div>
+    <div class="third"><p>o</p></div>
+    <div class="first"><p>o</p></div>
+    <div class="second"><p>o</p></div>
+    <div class="third"><p>o</p></div>
+    <div class="first"><p>o</p></div>
+    <div class="second"><p>o</p></div>
+    <div class="third"><p>o</p></div>
+    <div class="first"><p>o</p></div>
+    <div class="second"><p>o</p></div>
+</body>
+</html>
